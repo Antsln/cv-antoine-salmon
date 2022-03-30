@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500&display=swap');
+
+h1, h2, h3, h4, a, {
+		font-family : 'Roboto', sans-serif;
+}
+
+body{
+	background-color: RGB(243, 244, 250);
+}
+
+.intro{
+	background-color: RGB(243, 244, 250);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	padding-left: 160px;
+	padding-right: 160px;
+}
+
+
+.pres{
+	background-color: lightgrey;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
+.spe{
+	width: 900px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin:  16px auto;
+}
+
+.exp{
+	width: 900px;
+	background-color: rgb(255, 255, 255);
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin:  16px auto;
+}
+
+
+.folow{
+	width: 900px;
+	border-color: 2px black;
+	padding-top: 80px;
+	padding-bottom: 80px;
+	margin:  16px auto;
+	text-align: center;
+
+}
+
+a {
+	text-decoration: none;
+}
+
+
+h4{
+	text-align: center;
+	color: indianred; 
+}
+
+h2	{
+	text-align: center;
+}
+
+.img-center{
+	margin-right: 112px;
+}
+
+.btn-pink{
+	background-color: lightpink;
+	color: black;
+	border-radius: 16px;
+	padding: 8px;
+	transitions : 1s;
+}
+
+.btn-pink:hover{
+	background-color:black;
+	color: lightpink;
+	transition: 1s;
+}
+
+.btn-pink2{
+	background-color: lightpink;
+	color: black;
+	border-radius: 12px;
+	padding: 8px;
+	transitions : 1s;
+}
+
+.btn-pink2:hover{
+	background-color:black;
+	color: lightpink;
+	transition: 1s;
+}
+
+.cards-flex {
+	display: flex;
+	justify-content: space-between;
+}
+
+ul {
+  list-style-type: none;
+}
+.reduction{
+	width: 50%; 
+}
+
+.text-center{
+	text-align: center;
+}
+
+.text-pink{
+	color: indianred;
+}
+
+.colonne{
+	display: flex;
+	justify-content: space-between;
+}
